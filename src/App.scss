@@ -34,7 +34,7 @@ body {
 // 5. Style the main content area where the page content is rendered
 .main-content {
   width: 100%;
-  max-width: 900px; // Set a max-width for content, similar to the reference site
+  //max-width: 900px; // Set a max-width for content, similar to the reference site
   padding: 2rem 0;
   flex-grow: 1; // Ensures the main area expands to fill available space
   outline: none; // Remove focus outline when programmatically focused
@@ -93,7 +93,7 @@ body::before {
 // --- Header, Logo, and Navigation Styles ---
 .header {
   width: 100%;
-  max-width: 900px; // Aligns with main-content
+  //max-width: 900px; // Aligns with main-content
   padding-bottom: 1.5rem;
   margin-bottom: 2rem;
   border-bottom: 1px solid var(--border-color);
@@ -150,7 +150,7 @@ body::before {
 }
 
 .main {
-  max-width: 1040px;
+  //: 1040px;
   padding: 2rem 1.25rem 3rem;
   margin: 0 auto;
   width: 100%;
@@ -347,9 +347,30 @@ body::before {
   animation: fadeInUp 0.6s ease-out;
 }
 
-/* Loading animation for images */
 .logo {
-  animation: pulse 2s ease-in-out infinite;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-text-color);
+  text-decoration: none;
+  transition: color 0.2s ease-in-out, transform 0.2s ease-out, border-color 0.2s ease-in-out;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--border-color);
+  border-radius: 50%;
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+    transform: scale(1.05);
+  }
+
+  svg {
+    width: 22px;
+    height: 22px;
+    fill: currentColor;
+  }
 }
 
 /* Responsive animations */
@@ -542,6 +563,7 @@ body::before {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  flex-wrap: wrap;
   margin-bottom: 1rem;
   gap: 1rem;
 }
