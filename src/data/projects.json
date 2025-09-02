@@ -1,0 +1,25 @@
+{
+  "projects": [
+    {
+      "title": "Dogs' Spring",
+      "description": "Brief description of your project and the tech stack used.",
+      "link": "www.dogs-spring.it",
+      "iframeUrl": "https://www.dogs-spring.it",
+      "techStack": ["Angular", "TypeScript", "Express.JS", "Firebase"]
+    },
+    {
+      "title": "Project Two",
+      "description": "Brief description of your project and the tech stack used.",
+      "link": "#",
+      "iframeUrl": "https://example.com",
+      "techStack": ["React", "Node.js", "MongoDB"]
+    },
+    {
+      "title": "Project Three",
+      "description": "Brief description of your project and the tech stack used.",
+      "link": "#",
+      "iframeUrl": "https://example.com",
+      "techStack": ["Vue.js", "Firebase", "Tailwind"]
+    }
+  ]
+}

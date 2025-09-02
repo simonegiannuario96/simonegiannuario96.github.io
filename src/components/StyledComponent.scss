@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align content to the top */
+    min-height: 100vh;
+}
+
+.app-container {
+    max-width: 700px;
+    width: 100%;
+    padding: 2rem 3rem;
+    border: 1px solid #333;
+    border-radius: 8px;
+    background-color: #1a1a1a;
+}
+
+h1 {
+    color: #ffffff;
+    border-bottom: 1px solid #444;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.beer-icon {
+    vertical-align: middle;
+    margin: 0 8px;
+}
+
+.css-stylesheet-class {
+    background-color: #2a2a2a;
+    border: 1px solid #444;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 20px 0;
+    color: #e0e0e0;
+}
+
+.main-nav {
+    margin: 20px 0;
+}
+
+.nav-link {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #a0a0a0; /* Inactive link color */
+    font-weight: normal;
+    transition: color 0.3s ease;
+}
+
+.nav-link.active {
+    font-weight: bold;
+    color: #8888ff; /* Accent color for active link */
+}
+
+.nav-link:hover {
+    color: #ffffff;
+}
+
