@@ -347,7 +347,7 @@ body::before {
   animation: fadeInUp 0.6s ease-out;
 }
 
-.logo {
+/* .logo {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -371,7 +371,7 @@ body::before {
     height: 22px;
     fill: currentColor;
   }
-}
+} */
 
 /* Responsive animations */
 @media (prefers-reduced-motion: reduce) {

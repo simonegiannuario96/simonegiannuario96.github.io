@@ -3,7 +3,7 @@
     {
       "title": "Dogs' Spring",
       "description": "Brief description of your project and the tech stack used.",
-      "link": "www.dogs-spring.it",
+      "link": "https://www.dogs-spring.it",
       "iframeUrl": "https://www.dogs-spring.it",
       "techStack": ["Angular", "TypeScript", "Express.JS", "Firebase"]
     },
