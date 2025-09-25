@@ -2,24 +2,10 @@
   "projects": [
     {
       "title": "Dogs' Spring",
-      "description": "Brief description of your project and the tech stack used.",
+      "description": "Angular project based on a web app for pet grooming which show all services offered by the shop. It's implemented the possibility to signup/signin with Firebase Authentication and booking appointments synchronized with Google Calendar, but never showed.",
       "link": "https://www.dogs-spring.it",
       "iframeUrl": "https://www.dogs-spring.it",
       "techStack": ["Angular", "TypeScript", "Express.JS", "Firebase"]
-    },
-    {
-      "title": "Project Two",
-      "description": "Brief description of your project and the tech stack used.",
-      "link": "#",
-      "iframeUrl": "https://example.com",
-      "techStack": ["React", "Node.js", "MongoDB"]
-    },
-    {
-      "title": "Project Three",
-      "description": "Brief description of your project and the tech stack used.",
-      "link": "#",
-      "iframeUrl": "https://example.com",
-      "techStack": ["Vue.js", "Firebase", "Tailwind"]
     }
   ]
 }
